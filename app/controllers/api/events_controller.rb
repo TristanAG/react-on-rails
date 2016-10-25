@@ -1,7 +1,7 @@
 module Api
   class EventsController < ApplicationController
     def index
-      render json: Even.all
+      render json: Event.all
     end
   end
 end
